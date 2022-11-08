@@ -1,3 +1,5 @@
 /result/
 /model/
 /__pycache__/
+
+model-building.hdf5
