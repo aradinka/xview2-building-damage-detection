@@ -98,6 +98,7 @@ class application():
                     x,y = polygon.exterior.coords.xy
                     draw.polygon(list(zip(x,y)), colors()[damage])
                 image.save(st.session_state["save_map_path"], 'png')
+                
                 col1, col2 = st.columns(2)
                 with col1:
                     st.image(st.session_state["pre_image"], caption="Pre Disaster")
