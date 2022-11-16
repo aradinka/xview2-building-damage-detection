@@ -1,0 +1,3 @@
+[submodule "private-xview2-building-damage-detection"]
+	path = private-xview2-building-damage-detection
+	url = git@github.com:aradinka/private-xview2-building-damage-detection.git
